@@ -213,8 +213,8 @@ span {
 }
 
 .services-container img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 
     margin-bottom: 25px;
 }
@@ -256,5 +256,31 @@ span {
 
 .services-content span {
     font-size: 10px;
+    font-weight: 500;
+}
+
+.blog-section {
+    background-color: #d44621;
+    min-height: 70vh;
+    padding-top: 55px;
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.blog-content h1 {
+    max-width: 950px;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.blog-content span {
+    text-align: center;
+    font-size: 12px;
     font-weight: 500;
 }
