@@ -30,6 +30,12 @@ h1 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-size: 55px;
+    color: #fdfcfc;
+    text-transform: uppercase;
+}
+
 span {
     color: #a3a3a3;
 }
@@ -62,7 +68,8 @@ span {
 
 .home-section {
     min-height: 100vh;
-    background-image: url('../images/home.jpg');
+    /* background-image: url('../images/home.jpg'); */
+    background-color: #070706;
     background-size: cover;
     background-position: center;
 }
@@ -103,4 +110,70 @@ span {
 
 .home-content .subtitle span {
     text-align: right;
+}
+
+.studies-section {
+    min-height: 100vh;
+    background-color: #d44621;
+}
+
+.studies-content {
+    max-width: 800px;
+    margin: 0 auto;  
+}
+
+.studies-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.studies-row {
+    max-width: 800px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 55px;
+    margin-top: 55px;
+}
+
+.studies-row:last-child {
+    margin-top: 55px;
+}
+
+.studies-content-column {
+    display: flex;
+   
+    flex-direction: column;
+}
+
+.studies-content-column h1 {
+    margin-bottom: 15px;
+    font-size: 14px;
+ }
+
+ .studies-content-column span {
+    font-size: 12px;
+    margin-bottom: 4px;
+ }
+
+.studies-content-column a {
+   margin-top: 15px;
+   font-size: 10px;
+   font-weight: 600;
+}
+
+.studies-button {
+    height: 32px;
+    min-width: 150px;
+
+    padding: 5px 20px;
+    background-color: #d44621;
+    color: #fdfcfc;
+    border-radius: 25px;
+    border: 2px solid #fdfdfc;
+    font-size: 10px;
 }
