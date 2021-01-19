@@ -321,8 +321,37 @@ span {
     font-weight: 500;
 }
 
-.form {
+.form-column {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.form-row input {
+    width: 350px;
+    height: 32px;
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.user-input {
+    width: 350px;
+    height: 32px;
+
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.footer {
+    height: 20vh;
+    background-color: #070706;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

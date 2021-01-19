@@ -24,3 +24,7 @@ changeToGreen = function () {
 
     document.getElementById('navbar').style.backgroundColor = 'green';
 }
+
+function showCredits() {
+    alert('Desenvolvimento de Sistemas para Web - Aluno: Emanuel Maximiliano Pirilo Lima Sousa')
+}
