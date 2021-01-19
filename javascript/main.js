@@ -26,5 +26,5 @@ changeToGreen = function () {
 }
 
 function showCredits() {
-    alert('Desenvolvimento de Sistemas para Web - Aluno: Emanuel Maximiliano Pirilo Lima Sousa')
+    alert('Desenvolvimento de Software para Web - Aluno: Emanuel Maximiliano Pirilo Lima Sousa')
 }
