@@ -6,6 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="javascript/main.js">
+        handleChangeBackgroundColor = function () {
+            let element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
     </link>
 </head>
 
@@ -19,16 +25,15 @@
             <nav class="header-navbar">
                 <ul>
                     <li><a href="#"> Why full </a></li>
-                    <li><a href="#"> Case Studies </a></li>
-                    <li><a href="#"> Services </a></li>
-                    <li><a href="#"> Blog </a></li>
-                    <li><a href="#"> Contact </a></li>
+                    <li><button class="btn-white" onclick="changeToWhite()">White Color</button></li>
+                    <li><button class="btn-blue" onclick="changeToBlue()">Blue Color</button></li>
+                    <li><button class="btn-green" onclick="changeToGreen()">Green Color</button></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="home-section">
+    <section class="home-section" id="home-section">
         <div class="home-content">
             <div class="title">
                 <h1>THE CLOUD HAS INCRIDIBLE</h1>
@@ -45,7 +50,7 @@
         </div>
     </section>
 
-    <section class="studies-section">
+    <section class="studies-section" id="studies-section">
         <div class="studies-content">
             <div class="studies-column">
                 <div class="studies-row">
@@ -86,12 +91,12 @@
                     </div>
                 </div>
 
-                <button class="studies-button" type="button">SEE ALL CASES</button>
+                <button class="studies-button" onclick="changeColor()">SEE ALL CASES</button>
             </div>
         </div>
     </section>
 
-    <section class="services-section">
+    <section class="services-section" id="services-section">
         <div class="services-content">
             <div class="services-content-title">
                 <h1 class="services-title">HOW MANY TRIUMPHS ARE BURIED IN YOUR DATA?</h1>
@@ -107,19 +112,22 @@
                 <div class="services-container">
                     <img src="./images/big_data.png" />
                     <h3>BIG DATA</h3>
-                    <span>Historical, archived data for mining app and deep insights. The starting point for data-driven business.</span>
+                    <span>Historical, archived data for mining app and deep insights. The starting point for data-driven
+                        business.</span>
                 </div>
 
                 <div class="services-container">
                     <img src="./images/wide_data.png" />
                     <h3>WIDE DATA</h3>
-                    <span>Historical, archived data for mining app and deep insights. The starting point for data-driven business.</span>
+                    <span>Historical, archived data for mining app and deep insights. The starting point for data-driven
+                        business.</span>
                 </div>
 
                 <div class="services-container">
                     <img src="./images/fast_data.png" />
                     <h3>FAST DATA</h3>
-                    <span>Historical, archived data for mining app and deep insights. The starting point for data-driven business.</span>
+                    <span>Historical, archived data for mining app and deep insights. The starting point for data-driven
+                        business.</span>
                 </div>
             </div>
 
@@ -128,12 +136,21 @@
             <span>WE WORK WITH THE SMARTERST DATA-DRIVEN COMPANIES</span>
         </div>
     </section>
-    
-    <section class="blog-section">
-        <div class="blog-content">
-            <h1>"OUR THREE DAY WORKSHOP WITH THE FULL 360 SOLUTION ARCHITECT SAVED US SIX WEEKS OF TRIAL AND ERROR WORK ON OUR ANALYTICS INITIATIVE."</h1>
 
-            <span>FULL 360 CUSTOMER IN THE GAMIFICATION INDUSTRY</span>
+    <section class="blog-section" id="blog-section">
+        <div class="blog-content">
+            <h1>"OUR THREE DAY WORKSHOP WITH THE FULL 360 SOLUTION ARCHITECT SAVED US SIX WEEKS OF TRIAL AND ERROR WORK
+                ON OUR ANALYTICS INITIATIVE."</h1>
+
+            <span>DEIXE SEU RECADO</span>
+
+            <form class="form">
+                <label>Nome do usuário</label>
+                <input type="text"/>
+
+                <label>Mensagem</label>
+                <input type="text"/>
+            </form>
         </div>
     </section>
 </body>

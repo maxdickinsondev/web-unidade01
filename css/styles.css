@@ -66,6 +66,42 @@ span {
     margin-right: 25px;
 }
 
+.header-navbar ul li .btn-white {
+    height: 32px;
+    min-width: 150px;
+
+    padding: 5px 20px;
+    background-color: #ffffff;
+    color: #070706;
+    border-radius: 25px;
+    border: 2px solid #fdfdfc;
+    font-size: 14px;
+}
+
+.header-navbar ul li .btn-blue {
+    height: 32px;
+    min-width: 150px;
+
+    padding: 5px 20px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid 'blue';
+    font-size: 14px;
+}
+
+.header-navbar ul li .btn-green {
+    height: 32px;
+    min-width: 150px;
+
+    padding: 5px 20px;
+    background-color:green;
+    color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid 'green';
+    font-size: 14px;
+}
+
 .home-section {
     min-height: 100vh;
     background-color: #070706;
@@ -283,4 +319,10 @@ span {
     text-align: center;
     font-size: 12px;
     font-weight: 500;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
